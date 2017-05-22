@@ -1,0 +1,3 @@
+A.Abtraksi
+  Merupakan menyembunyikan proses atau tidak diimplementasikan,dan bila ingin di implementasikan maka dilakukan di class turunannya 
+B.Enkapsulasi memudahkan kita untuk menggunakan sebuah objek dari suatu kelas karena kita tidak perlu mengetahui segala hal secara rinci.
