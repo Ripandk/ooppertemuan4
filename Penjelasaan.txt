@@ -1,0 +1,14 @@
+Penjelasaan pertemuan 11. Interface
+1.	Interface adalah sebuah tipe referensi pada java.
+  	isi dari interface adalah method abstract (contohnya pada "Socket.java" dan "CetakLaporan.java")
+
+2.	pada Interface "Socket.java" diimplementasikan pada class "PanasPower.java", "NuclearPower.java"
+	pada Interface "cetakLaporan" diimplementasikan pada class "LaporanBulanan.java"
+
+3.	Pada "GasPower.java" adalah pembuktian boleh tidak nya sebuah kelas abstrack("GasPower.java") mengimplementasikan method abstrack ("Socket.java") dan juga
+	Pada class abstract "LaporanHarian.java" mengimplement interface/methode abstract "CetakLaporan.java" sebagai pembuktian
+
+4.	Bukti variable pada interface adalah variable static dan pemanggilan pada variable kelas utama adalah Pada "RunPower.java" dan "LaporanBulanan.java"
+
+5.	Bukti sebuah interface dapat meng-Extend banyak interface adalah pada "Laporan.java" yang meng-extends CetakLaporan & TampilanLaporan 	 
+6.	Bukti sebuah kelas bisa atau tidak mengimplemen banyak interface adalah pada "LaporanTahunan.java" yang mengimplement "CetakLaporan.java" dan "TampilLaporan.java" 
